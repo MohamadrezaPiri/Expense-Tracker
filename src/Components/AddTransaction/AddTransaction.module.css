@@ -1,0 +1,58 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input[type="text"] {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 1.5rem;
+  width: 98%;
+  margin: 0.5rem auto;
+  outline: none;
+  padding: 3px;
+}
+form input[type="number"] {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 1.5rem;
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  padding: 3px;
+}
+
+.radios {
+  margin: 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+label {
+  margin-left: 0.2rem;
+}
+
+.firstLabel {
+  margin-right: 0.7rem;
+}
+
+.addTransaction {
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 7px;
+  background-color: #5b21b6;
+  color: #fff;
+  cursor: pointer;
+}
+
+label {
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  cursor: pointer;
+}

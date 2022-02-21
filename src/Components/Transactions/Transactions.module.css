@@ -1,0 +1,35 @@
+.Transaction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem auto;
+  width: 96%;
+  height: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f4f4f5;
+  padding: 0 5px;
+  font-weight: bold;
+}
+
+.expense {
+  color: #dc2626;
+}
+
+.income {
+  color: #15803d;
+}
+
+input.searchBox {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  background-color: #efefef;
+  padding: 10px 12px;
+  width: 91%;
+  margin: .5rem auto;
+}
+
+input.searchBox::placeholder{
+  font-size: .8rem;
+}

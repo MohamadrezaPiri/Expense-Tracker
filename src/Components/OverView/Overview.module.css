@@ -1,0 +1,92 @@
+.balance {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.balance p{
+  font-weight: bold;
+}
+
+.expIncDefault {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0rem;
+}
+
+.expInc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.7rem;
+}
+
+.expenseDiv {
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 50px;
+  padding-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.expenseText {
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+.expense {
+  margin-bottom: 5px;
+  margin-top: 8px;
+  font-weight: bold;
+  color: #dc2626;
+}
+
+.incomeDiv {
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 50px;
+  padding-top: 0;
+}
+
+.incomeText {
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+.income {
+  margin-bottom: 5px;
+  margin-top: 8px;
+  font-weight: bold;
+  color: #15803d;
+}
+
+.addbtn {
+  background-color: #111827;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.cancelebtn {
+  background-color: #fff;
+  color: #dc2626;
+  border: 1px solid #dc2626;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
